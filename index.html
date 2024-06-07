@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Portfólio Profissional</title>
+  <style>
+    /* Estilos Gerais */
+    body,
+    html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f9;
+      color: #333;
+    }
+
+    /* Layout Flexbox para garantir o footer no final */
+    .wrapper {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header,
+    nav,
+    section,
+    footer {
+      display: block;
+    }
+
+    header {
+      background: #333;
+      color: #fff;
+      padding: 1em 0;
+      text-align: center;
+    }
+
+    nav {
+      margin: 0;
+      padding: 1em;
+      text-align: center;
+      background: #444;
+    }
+
+    nav a {
+      margin: 0 15px;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      width: 80%;
+      margin: 0 auto;
+      overflow: hidden;
+      padding: 1em 0;
+    }
+
+    .content {
+      padding: 2em 0;
+      text-align: center;
+    }
+
+    .content h2 {
+      color: #444;
+    }
+
+    .content p {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .content img {
+      max-width: 100px;
+      border-radius: 50%;
+      margin-top: 10px;
+    }
+
+    .resume,
+    .portfolio {
+      text-align: left;
+    }
+
+    .resume h3,
+    .portfolio h3 {
+      border-bottom: 2px solid #444;
+      padding-bottom: 10px;
+    }
+
+    .resume ul,
+    .portfolio ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .resume ul li,
+    .portfolio ul li {
+      margin: 0.5em 0;
+    }
+
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 1em 0;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <header>
+      <h1>Meu Portfólio Profissional</h1>
+    </header>
+
+    <nav>
+      <a href="#home">Início</a>
+      <a href="#resume">Currículo</a>
+      <a href="#contact">Contato</a>
+    </nav>
+
+    <div class="container">
+      <section id="home" class="content">
+        <h2>Bem-vindo ao meu Portfólio!</h2>
+        <p>Sou Flávio Yamane de Oliveira, um Analista de Desenvolvimento de Sistemas apaixonado por Desenvolvimento Full Stack. Aqui você pode encontrar mais sobre mim e meus trabalhos.</p>
+        <img src="img/foto.jpeg" alt="Minha Foto">
+      </section>
+
+      <section id="resume" class="content resume">
+        <h2>Currículo</h2>
+        <h3>Resumo</h3>
+        <ul>
+          <li>Desenvolver e liderar equipes na entrega de produtos de sucesso, utilizando minha experiência em gestão de produtos e habilidades ágeis em um ambiente dinâmico e inovador.</li>
+        </ul>
+
+        <h3>Formação</h3>
+        <ul>
+          <li>MBA - Engenharia de Software - Universidade de São Paulo (USP/ESALQ) - Conclusão: 2025</li>
+          <li>Graduação em Ciência da Computação - Universidade Nove de Julho (UNINOVE) - 2021</li>
+          <li>Curso em Java - Udemy - 2021</li>
+          <li>Curso de C# - Udemy - 2021</li>
+          <li>Curso de Hacking do Zero para Iniciantes com Kali, Nmap e Metasploit - Udemy - 2021</li>
+          <li>Curso de Python 3 - Udemy - 2021</li>
+          <li>Curso de Design - Escola de Arte SAGA. (Pacote Adobe) - 2018</li>
+          <li>Curso de Inglês (nível Intermediário) - CNA Idiomas - 2014</li>
+        </ul>
+
+        <h3>Experiência Profissional</h3>
+        <ul>
+          <li>Analista de Desenvolvimento de Sistemas/PO na Techne - 01/2022 - Atual</li>
+          <ul>
+            <li>Desenvolvedor e gestor de equipes web e mobile utilizando as linguagens Java, HTML, CSS, AngularJS e JavaScript</li>
+            <li>Trabalho em equipe para projetar e implementar novos recursos e melhorias em aplicativos</li>
+            <li>Gerenciamento da equipe e refinamento das próximas sprints e histórias</li>
+            <li>Escrever e detalhar as histórias de negócio</li>
+            <li>Colaboração com outras equipes de desenvolvimento para garantir que os aplicativos atendam aos requisitos de negócios e do usuário final</li>
+            <li>Auxílio aos novos colaboradores em fase de treinamento, prestando todo suporte necessário como treinamentos e acompanhamento</li>
+            <li>Participação e gerenciamento de projetos, auxiliando no planejamento estrutural e definindo as etapas de desenvolvimento</li>
+            <li>Trabalho com metodologia ágil Scrum</li>
+            <li>Testes de componentes para implementação em projetos</li>
+          </ul>
+          <li>Estagiário na Techne - 09/2021 - 12/2021</li>
+          <ul>
+            <li>Responsável por cuidar de uma plataforma de desenvolvimento de software low-code feita em Java.</li>
+            <li>Minhas principais atividades incluíam atender chamados de clientes externos, solucionar problemas na plataforma e me comunicar internamente com as áreas responsáveis pelo desenvolvimento.</li>
+          </ul>
+        </ul>
+
+        <h3>Habilidades</h3>
+        <ul>
+          <li>Gestão de Produtos</li>
+          <li>Compreensão Técnica</li>
+          <li>Metodologias Ágeis</li>
+          <li>Visão Estratégica</li>
+          <li>MySQL</li>
+          <li>API REST</li>
+          <li>Java 8 a 11</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>AngularJS</li>
+          <li>JavaScript</li>
+        </ul>
+      </section>
+
+      <section id="contact" class="content">
+        <h2>Contato</h2>
+        <p>Para mais informações ou se quiser discutir uma oportunidade, você pode me contatar via:</p>
+        <p>Email: <a href="mailto:flavio.yamane@hotmail.com">flavio.yamane@hotmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/flavio-yamane-de-oliveira/" target="_blank">Flávio Yamane de Oliveira</a></p>
+        <p>GitHub: <a href="https://github.com/Flavioy2205" target="_blank">meus repositórios no GitHub</a></p>
+      </section>
+    </div>
+
+    <footer>
+      <p>&copy; 2024 Flávio Yamane de Oliveira. Todos os direitos reservados.</p>
+    </footer>
+  </div>
+
+</body>
+
+</html>
